@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz_wrapper">
+        <div class="quiz_header">
+          <div class="quiz_m_title">QUIZ</div>
+          <div class="q_indicator"></div>
+        </div>
+
+        <div class="quiz_body">
+          <div class="q_start_box">
+            <div class="start_q_boxs">
+              <label>chose category</label>
+              <select id="q_cat" class="q_forms_"></select>
+            </div>
+            <div class="start_q_boxs">
+              <label>chose difficult</label>
+              <select id="q_diff" class="q_forms_">
+                <option value="0">Any Difficulty</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="quiz_footer">
+          <button class="q_buttons start_" quesIndex="1">start quiz</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
